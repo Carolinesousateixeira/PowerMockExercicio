@@ -13,4 +13,8 @@ public class Conexao {
 		}
 		return instancia;
 	}
+	
+	public static boolean estaFechado() {
+		return false;
+	}
 }
