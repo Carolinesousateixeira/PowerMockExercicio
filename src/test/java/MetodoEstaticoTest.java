@@ -23,10 +23,6 @@ public class MetodoEstaticoTest {
     public void setUp() {
     }
     
-    @Test public void testSingleton() {        
-    	Whitebox.setInternalState(Conexao.class, "instancia", conexao);
-    	assertEquals(conexao, Conexao.getInstancia());        
-    }
     
     @Test public void  testMetodoEstatico() {
     	PowerMockito.mockStatic(Conexao.class);
